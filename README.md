@@ -1,5 +1,5 @@
-# Simple-Recommendation-System
-
+![Pandas](https://img.shields.io/badge/Pandas-2.3.1-orange)
+![numpy](https://img.shields.io/badge/numpy-1.26.4-yellow)
 # Overview
 ### Movie Recommendation System
 the porpuse of this project is to build a content-based recommender using pure numpy and pandas
@@ -11,7 +11,7 @@ A market basket analysis system that suggests frequently purchased grocery items
 ### Movie Recommendation System:
   - dual search mode:
     - Search by movie title (finds similar movies)
-    - Search by preferences (genre/director/actor)
+    - Search by preferences (genre/director/actor/...)
   -  IMDB rating and meta score filtering
   -  Cosine Similarity:
     -  measures the similarity of the recommended movie to input movie or features
@@ -53,13 +53,13 @@ occurrence = np.dot(transaction_matrix.T, transaction_matrix)
 
 
 # setup
-## 1- clone repositore
+### 1- clone repositore
 ```bash
 git clone https://github.com/Lord-Mahdi1383/Simple-Recommendation-System.git
 cd Simple-Recommendation-System
 ```
 
-## 2- install requirements
+### 2- install requirements
 ```bash
 pip install -r Requirements.txt
 ```
